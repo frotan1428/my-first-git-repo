@@ -1,8 +1,8 @@
-package Paractice01;
+
 
 import java.util.Scanner;
 
-public class Q01 {
+public class RemotClassInjava {
 
     public static void main(String[] args) {
             /*
@@ -22,11 +22,11 @@ public class Q01 {
         int year=scan.nextInt();
         System.out.println("Enter Your Salary:");
         int salary=scan.nextInt();
-         if(year<0 || salary<0){
-             System.out.println("Please Enter Valid Data:");
+        if(year<0 || salary<0){
+            System.out.println("Please Enter Valid Data:");
 
-         }else if(year>=0 && year<5){
-             System.out.println("you should work :" +(5-year) +"year more to get the bonus ");
+        }else if(year>=0 && year<5){
+            System.out.println("you should work :" +(5-year) +"year more to get the bonus ");
         }else{
             System.out.println("your bonus is:" + salary*5/100);
         }

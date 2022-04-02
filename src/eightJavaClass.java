@@ -1,0 +1,8 @@
+public class eightJavaClass {
+
+    public static void main(String[] args) {
+
+        System.out.println("This is eightJavaClass");
+        System.out.println("I do not to sent you in github");
+    }
+}
